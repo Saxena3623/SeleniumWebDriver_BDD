@@ -11,6 +11,11 @@ Maven 3.1 or above
 Intellij or IDE of choice in case there is need to update the script. (optional)
 
 
+Checkout the code from github
+Open terminal and navigate to the checkout directory
+git clone https://github.com/Saxena3623/SeleniumWebDriver_BDD
+Checkout the master branch
+
 
 Config.properties file contains all the required configurations to trigger the scripts with  specified  pre-requisites
 
