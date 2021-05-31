@@ -60,4 +60,3 @@ test-xml: Contains the xml files for the test suites.
 
 **Result Files:**
 Test Results - target/cucumber-html-report-featureFilename
-Test Results - Scenario__User_is_able_to_update_Account_Information.html
