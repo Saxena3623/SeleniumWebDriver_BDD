@@ -1,0 +1,133 @@
+<html>
+<head>
+<title>TestNG:  Update User Information</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Update User Information</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 01 01:20:41 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>71 seconds (71357 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.quali.automation.runners.ProfileUpdateRunner.run_cukes()'><b>run_cukes</b><br>Test class: org.quali.automation.runners.ProfileUpdateRunner<br>Test method: Runs Cucumber Features<br/>
+<a href="#Output-35032559" onClick='toggleBox("Output-35032559", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-35032559" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-35032559">
+<div "featureFile">Feature File: src&#x2F;test&#x2F;resources&#x2F;featurefiles&#x2F;Update_Profile.feature</div><br/>
+<div "feature">Feature: Update Profile Information</div><br/>
+********************************************************<br/>
+Scenario: Verify User is able to successfully log in the website<br/>
+********************************************************<br/>
+<div "scenario">Scenario: Verify User is able to successfully log in the website</div><br/>
+<div "result">Given  User is able to launch shopping website (passed : 22s)</div><br/>
+[PASS]:  User is on Sign in page<br/>
+Clicked on [[ChromeDriver: chrome on WINDOWS (240815e81437cadeee9686fb58f49875)] -> xpath: //a[contains(text(),'Sign in')]]<br/>
+User clicked on Sign in<br/>
+<div "result">When  User clicks on &#x27;Sign in&#x27; link (passed : 8s)</div><br/>
+[INFO]: User entered Email address<br/>
+[INFO]: User entered password<br/>
+User entered credentials<br/>
+<div "result">And  User enters login details (passed : 2s)</div><br/>
+[INFO]: User has clicked on Submit button<br/>
+User clicked on sign in button<br/>
+<div "result">And  User clicks on &#x27;Sign In&#x27; button (passed : 3s)</div><br/>
+User is able to login successfully<br/>
+<div "result">Then  User is able to login successfully (passed : 0s)</div><br/>
+*************************************<br/>
+Scenario Name: VERIFY USER IS ABLE TO SUCCESSFULLY LOG IN THE WEBSITE<br/>
+Scenario Result: PASSED<br/>
+********************************************************<br/>
+Scenario: User is able to update Account Information<br/>
+********************************************************<br/>
+<div "scenario">Scenario: User is able to update Account Information</div><br/>
+Clicked on [[ChromeDriver: chrome on WINDOWS (240815e81437cadeee9686fb58f49875)] -> xpath: //span[contains(text(),'My personal information')]]<br/>
+User clicked onMy personal information<br/>
+<div "result">Given  User clicks on &#x27;My personal information&#x27; option (passed : 1s)</div><br/>
+<div "result">And  User updates the first name details (passed : 2s)</div><br/>
+[INFO]: User entered password<br/>
+User entered password<br/>
+<div "result">And  User enters password (passed : 6s)</div><br/>
+Clicked on [[ChromeDriver: chrome on WINDOWS (240815e81437cadeee9686fb58f49875)] -> css selector: button[name='submitIdentity']]<br/>
+<div "result">And  User clicks on &#x27;Save&#x27; button (passed : 6s)</div><br/>
+ASSERTION PASSED: element msg_success is displayed.<br/>
+Get text  Your personal information has been successfully updated. value of an element [[ChromeDriver: chrome on WINDOWS (240815e81437cadeee9686fb58f49875)] -> css selector: .alert-success]<br/>
+Account info is updated<br/>
+<div "result">Then  User verifies account information is updated (passed : 14s)</div><br/>
+*************************************<br/>
+Scenario Name: USER IS ABLE TO UPDATE ACCOUNT INFORMATION<br/>
+Scenario Result: PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>71</td>
+<td>org.quali.automation.runners.ProfileUpdateRunner@7d9f158f</td></tr>
+</table><p>
+</body>
+</html>

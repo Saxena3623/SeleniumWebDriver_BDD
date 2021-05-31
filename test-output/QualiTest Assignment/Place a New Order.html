@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>TestNG:  Place a New Order</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Place a New Order</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 01 01:18:54 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>106 seconds (106894 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.quali.automation.runners.OrderPlaceRunner.run_cukes()'><b>run_cukes</b><br>Test class: org.quali.automation.runners.OrderPlaceRunner<br>Test method: Runs Cucumber Features<br/>
+<a href="#Output-1959708563" onClick='toggleBox("Output-1959708563", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1959708563" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1959708563">
+<div "featureFile">Feature File: src&#x2F;test&#x2F;resources&#x2F;featurefiles&#x2F;Order_Tshirt.feature</div><br/>
+<div "feature">Feature: Ordering new T-shirt</div><br/>
+********************************************************<br/>
+Scenario: Verify User is able to successfully log in the website<br/>
+********************************************************<br/>
+<div "scenario">Scenario: Verify User is able to successfully log in the website</div><br/>
+<div "result">Given  User is able to launch shopping website (passed : 16s)</div><br/>
+[PASS]:  User is on Sign in page<br/>
+Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //a[contains(text(),'Sign in')]]<br/>
+User clicked on Sign in<br/>
+<div "result">When  User clicks on &#x27;Sign in&#x27; link (passed : 5s)</div><br/>
+[INFO]: User entered Email address<br/>
+[INFO]: User entered password<br/>
+User entered credentials<br/>
+<div "result">And  User enters login details (passed : 2s)</div><br/>
+[INFO]: User has clicked on Submit button<br/>
+User clicked on sign in button<br/>
+<div "result">And  User clicks on &#x27;Sign In&#x27; button (passed : 10s)</div><br/>
+User is able to login successfully<br/>
+<div "result">Then  User is able to login successfully (passed : 0s)</div><br/>
+*************************************<br/>
+Scenario Name: VERIFY USER IS ABLE TO SUCCESSFULLY LOG IN THE WEBSITE<br/>
+Scenario Result: PASSED<br/>
+********************************************************<br/>
+Scenario: User places an order of T-shirt<br/>
+********************************************************<br/>
+<div "scenario">Scenario: User places an order of T-shirt</div><br/>
+Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //*[@id="block_top_menu"]/ul/li/a[text()="T-shirts"]]<br/>
+User clicked on T-shirts<br/>
+<div "result">When  User clicks on &#x27;T-shirts&#x27; tab (passed : 8s)</div><br/>
+Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> css selector: a[title="Add to cart"]]<br/>
+[INFO]: User added item to Cart<br/>
+<div "result">And  User selects item to adds to cart (passed : 0s)</div><br/>
+Get text  Faded Short Sleeve T-shirts value of an element [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> css selector: #layer_cart_product_title]<br/>
+Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //div[@id="layer_cart"]//span[contains(text(),"Proceed to checkout")]]<br/>
+User clicked on Checkout button<br/>
+<div "result">And  User clicks on checkout button (passed : 14s)</div><br/>
+Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //p[@class="cart_navigation clearfix"]//span[contains(text(),"Proceed to checkout")]]<br/>
+[PASS]: Proceed to Checkout clicked<br/>
+<div "result">And  User is on &#x27;Summary&#x27; Tab and clicks on &#x27;Proceed to checkout&#x27; (passed : 5s)</div><br/>
+Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //p[@class="cart_navigation clearfix"]//span[contains(text(),"Proceed to checkout")]]<br/>
+[PASS]: Proceed to Checkout clicked<br/>
+<div "result">And  User is on &#x27;Address&#x27; Tab and clicks on &#x27;Proceed to checkout&#x27; (passed : 5s)</div><br/>
+[INFO]: User has clicked on I Agree button<br/>
+Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //p[@class="cart_navigation clearfix"]//span[contains(text(),"Proceed to checkout")]]<br/>
+[PASS]: Proceed to Checkout clicked<br/>
+<div "result">And  User checkout after selecting Terms and Services (passed : 5s)</div><br/>
+Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> css selector: .payment_module .bankwire]<br/>
+[INFO]: User has selected payment mode: bankwire<br/>
+<div "result">And  User selects payment method &#x27;bankwire&#x27; on payment tab (passed : 8s)</div><br/>
+Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //p[@class="cart_navigation clearfix"]//span[contains(text(),"I confirm my order")]]<br/>
+[PASS]: Proceed to Checkout clicked<br/>
+<div "result">And  User clicks on &#x27;I confirm my order&#x27; (passed : 3s)</div><br/>
+Get text  ORDER CONFIRMATION
+01. Summary
+02. Sign in
+03. Address
+04. Shipping
+05. Payment
+Your order on My Store is complete.
+Please send us a bank wire with
+- Amount $18.51
+- Name of account owner Pradeep Macharla
+- Include these details xyz
+- Bank name RTP
+- Do not forget to insert your order reference DZXMLOKCO in the subject of your bank wire.
+An email has been sent with this information.
+Your order will be sent as soon as we receive payment.
+If you have questions, comments or concerns, please contact our expert customer support team. .
+Back to orders value of an element [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //div[@id="center_column"]]<br/>
+Get text  Your order on My Store is complete. value of an element [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> css selector: .box .cheque-indent .dark]<br/>
+Order is placed uccessfully<br/>
+<div "result">Then  User verifies order is successful (passed : 2s)</div><br/>
+Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> css selector: .account span]<br/>
+[INFO]: User has clicked on Account info button<br/>
+[PASS]: User is on My Account page<br/>
+Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> css selector: .myaccount-link-list [title=Orders]]<br/>
+[INFO]: User has clicked on Orders History and Details button<br/>
+[PASS]: User is on Order History page<br/>
+Refrence id is DZXMLOKCO<br/>
+Order is present in history<br/>
+<div "result">And  User verifies recent order in history (passed : 11s)</div><br/>
+*************************************<br/>
+Scenario Name: USER PLACES AN ORDER OF T-SHIRT<br/>
+Scenario Result: PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>106</td>
+<td>org.quali.automation.runners.OrderPlaceRunner@5e3f861</td></tr>
+</table><p>
+</body>
+</html>

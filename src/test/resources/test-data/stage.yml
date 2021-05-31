@@ -1,0 +1,15 @@
+url: "http://automationpractice.com"
+emailAddress: rishusaxena22@gmail.com
+password: r9MoTNZOloOuIKfcbjPucw==
+headers:
+  home: "My Store"
+  signIn: "Login - My Store"
+  account: "My account - My Store"
+  tshirt: "T-shirts - My Store"
+  order: "Order - My Store"
+  history: "Order history - My Store"
+orderConfirmation_text: "Your order on My Store is complete."
+updatedFirstName: "TestUpdate"
+update_infoText: "Your personal information has been successfully updated."
+
+

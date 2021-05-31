@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [QualiTest Assignment]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" name="Update User Information(failed)">
+    <classes>
+      <class name="org.quali.automation.runners.ProfileUpdateRunner">
+        <methods>
+          <include name="run_cukes"/>
+        </methods>
+      </class> <!-- org.quali.automation.runners.ProfileUpdateRunner -->
+    </classes>
+  </test> <!-- Update User Information(failed) -->
+</suite> <!-- Failed suite [QualiTest Assignment] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="QualiTest Assignment" preserve-order="true" thread-count="1">
+
+    <test name="Place a New Order" >
+        <classes>
+            <class name="org.quali.automation.runners.OrderPlaceRunner"/>
+        </classes>
+    </test>
+    <test name="Update User Information" >
+        <classes>
+            <class name="org.quali.automation.runners.ProfileUpdateRunner"/>
+        </classes>
+    </test>
+</suite>

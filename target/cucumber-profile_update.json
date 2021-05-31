@@ -1,0 +1,223 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 54701,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def_Base.initialSetUp(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 3037421399,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def_Base.initialSetUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify User is able to successfully log in the website",
+        "description": "",
+        "id": "update-profile-information;verify-user-is-able-to-successfully-log-in-the-website",
+        "after": [
+          {
+            "result": {
+              "duration": 1464200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def_Base.screenShotAndConsoleLog(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22983497600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is able to launch shopping website",
+            "match": {
+              "location": "Step_Def_Ordering.verifyLaunchShoppingWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8053491100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on \u0027Sign in\u0027 link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sign in",
+                  "offset": 16
+                }
+              ],
+              "location": "Step_Def_Ordering.verifyUserClicksOnLink(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2434074899,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters login details",
+            "match": {
+              "location": "Step_Def_Ordering.verifyUserEnterLoginDetails()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3617486499,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on \u0027Sign In\u0027 button",
+            "match": {
+              "location": "Step_Def_Ordering.verifyUserClicksOnSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102377600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is able to login successfully",
+            "match": {
+              "location": "Step_Def_Ordering.verifyloginIsSuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@First"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 101500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def_Base.initialSetUp(Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User is able to update Account Information",
+        "description": "",
+        "id": "update-profile-information;user-is-able-to-update-account-information",
+        "after": [
+          {
+            "result": {
+              "duration": 973299,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Def_Base.screenShotAndConsoleLog(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1950508800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on \u0027My personal information\u0027 option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "My personal information",
+                  "offset": 16
+                }
+              ],
+              "location": "Step_Def_Ordering.verifyUserClickOnOption(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2434823300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User updates the first name details",
+            "match": {
+              "location": "Step_Def_Ordering.verifyUserUpdatesDetails()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6210355001,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters password",
+            "match": {
+              "location": "Step_Def_Ordering.verifyEnterPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6106025400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on \u0027Save\u0027 button",
+            "match": {
+              "location": "Step_Def_Ordering.clickSaveBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14307035400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User verifies account information is updated",
+            "match": {
+              "location": "Step_Def_Ordering.verifyAccountInfoUpdated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Update Profile Information",
+    "description": "",
+    "id": "update-profile-information",
+    "keyword": "Feature",
+    "uri": "src/test/resources/featurefiles/Update_Profile.feature"
+  }
+]

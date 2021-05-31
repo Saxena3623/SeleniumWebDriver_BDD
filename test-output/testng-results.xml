@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: src&#x2F;test&#x2F;resources&#x2F;featurefiles&#x2F;Order_Tshirt.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Ordering new T-shirt</div>]]>
+    </line>
+    <line>
+      <![CDATA[********************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Scenario: Verify User is able to successfully log in the website]]>
+    </line>
+    <line>
+      <![CDATA[********************************************************]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Verify User is able to successfully log in the website</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  User is able to launch shopping website (passed : 16s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[[PASS]:  User is on Sign in page]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //a[contains(text(),'Sign in')]]]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on Sign in]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  User clicks on &#x27;Sign in&#x27; link (passed : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: User entered Email address]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: User entered password]]>
+    </line>
+    <line>
+      <![CDATA[User entered credentials]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User enters login details (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: User has clicked on Submit button]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on sign in button]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User clicks on &#x27;Sign In&#x27; button (passed : 10s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[User is able to login successfully]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  User is able to login successfully (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[*************************************]]>
+    </line>
+    <line>
+      <![CDATA[Scenario Name: VERIFY USER IS ABLE TO SUCCESSFULLY LOG IN THE WEBSITE]]>
+    </line>
+    <line>
+      <![CDATA[Scenario Result: PASSED]]>
+    </line>
+    <line>
+      <![CDATA[********************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Scenario: User places an order of T-shirt]]>
+    </line>
+    <line>
+      <![CDATA[********************************************************]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: User places an order of T-shirt</div>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //*[@id="block_top_menu"]/ul/li/a[text()="T-shirts"]]]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on T-shirts]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  User clicks on &#x27;T-shirts&#x27; tab (passed : 8s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> css selector: a[title="Add to cart"]]]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: User added item to Cart]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User selects item to adds to cart (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[Get text  Faded Short Sleeve T-shirts value of an element [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> css selector: #layer_cart_product_title]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //div[@id="layer_cart"]//span[contains(text(),"Proceed to checkout")]]]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on Checkout button]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User clicks on checkout button (passed : 14s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //p[@class="cart_navigation clearfix"]//span[contains(text(),"Proceed to checkout")]]]]>
+    </line>
+    <line>
+      <![CDATA[[PASS]: Proceed to Checkout clicked]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User is on &#x27;Summary&#x27; Tab and clicks on &#x27;Proceed to checkout&#x27; (passed : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //p[@class="cart_navigation clearfix"]//span[contains(text(),"Proceed to checkout")]]]]>
+    </line>
+    <line>
+      <![CDATA[[PASS]: Proceed to Checkout clicked]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User is on &#x27;Address&#x27; Tab and clicks on &#x27;Proceed to checkout&#x27; (passed : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: User has clicked on I Agree button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //p[@class="cart_navigation clearfix"]//span[contains(text(),"Proceed to checkout")]]]]>
+    </line>
+    <line>
+      <![CDATA[[PASS]: Proceed to Checkout clicked]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User checkout after selecting Terms and Services (passed : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> css selector: .payment_module .bankwire]]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: User has selected payment mode: bankwire]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User selects payment method &#x27;bankwire&#x27; on payment tab (passed : 8s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //p[@class="cart_navigation clearfix"]//span[contains(text(),"I confirm my order")]]]]>
+    </line>
+    <line>
+      <![CDATA[[PASS]: Proceed to Checkout clicked]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User clicks on &#x27;I confirm my order&#x27; (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[Get text  ORDER CONFIRMATION
+01. Summary
+02. Sign in
+03. Address
+04. Shipping
+05. Payment
+Your order on My Store is complete.
+Please send us a bank wire with
+- Amount $18.51
+- Name of account owner Pradeep Macharla
+- Include these details xyz
+- Bank name RTP
+- Do not forget to insert your order reference DZXMLOKCO in the subject of your bank wire.
+An email has been sent with this information.
+Your order will be sent as soon as we receive payment.
+If you have questions, comments or concerns, please contact our expert customer support team. .
+Back to orders value of an element [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //div[@id="center_column"]]]]>
+    </line>
+    <line>
+      <![CDATA[Get text  Your order on My Store is complete. value of an element [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> css selector: .box .cheque-indent .dark]]]>
+    </line>
+    <line>
+      <![CDATA[Order is placed uccessfully]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  User verifies order is successful (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> css selector: .account span]]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: User has clicked on Account info button]]>
+    </line>
+    <line>
+      <![CDATA[[PASS]: User is on My Account page]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> css selector: .myaccount-link-list [title=Orders]]]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: User has clicked on Orders History and Details button]]>
+    </line>
+    <line>
+      <![CDATA[[PASS]: User is on Order History page]]>
+    </line>
+    <line>
+      <![CDATA[Refrence id is DZXMLOKCO]]>
+    </line>
+    <line>
+      <![CDATA[Order is present in history]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User verifies recent order in history (passed : 11s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[*************************************]]>
+    </line>
+    <line>
+      <![CDATA[Scenario Name: USER PLACES AN ORDER OF T-SHIRT]]>
+    </line>
+    <line>
+      <![CDATA[Scenario Result: PASSED]]>
+    </line>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: src&#x2F;test&#x2F;resources&#x2F;featurefiles&#x2F;Update_Profile.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Update Profile Information</div>]]>
+    </line>
+    <line>
+      <![CDATA[********************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Scenario: Verify User is able to successfully log in the website]]>
+    </line>
+    <line>
+      <![CDATA[********************************************************]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Verify User is able to successfully log in the website</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  User is able to launch shopping website (passed : 22s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[[PASS]:  User is on Sign in page]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (240815e81437cadeee9686fb58f49875)] -> xpath: //a[contains(text(),'Sign in')]]]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on Sign in]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  User clicks on &#x27;Sign in&#x27; link (passed : 8s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: User entered Email address]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: User entered password]]>
+    </line>
+    <line>
+      <![CDATA[User entered credentials]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User enters login details (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: User has clicked on Submit button]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on sign in button]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User clicks on &#x27;Sign In&#x27; button (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[User is able to login successfully]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  User is able to login successfully (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[*************************************]]>
+    </line>
+    <line>
+      <![CDATA[Scenario Name: VERIFY USER IS ABLE TO SUCCESSFULLY LOG IN THE WEBSITE]]>
+    </line>
+    <line>
+      <![CDATA[Scenario Result: PASSED]]>
+    </line>
+    <line>
+      <![CDATA[********************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Scenario: User is able to update Account Information]]>
+    </line>
+    <line>
+      <![CDATA[********************************************************]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: User is able to update Account Information</div>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (240815e81437cadeee9686fb58f49875)] -> xpath: //span[contains(text(),'My personal information')]]]]>
+    </line>
+    <line>
+      <![CDATA[User clicked onMy personal information]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  User clicks on &#x27;My personal information&#x27; option (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User updates the first name details (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: User entered password]]>
+    </line>
+    <line>
+      <![CDATA[User entered password]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User enters password (passed : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (240815e81437cadeee9686fb58f49875)] -> css selector: button[name='submitIdentity']]]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User clicks on &#x27;Save&#x27; button (passed : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[ASSERTION PASSED: element msg_success is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Get text  Your personal information has been successfully updated. value of an element [[ChromeDriver: chrome on WINDOWS (240815e81437cadeee9686fb58f49875)] -> css selector: .alert-success]]]>
+    </line>
+    <line>
+      <![CDATA[Account info is updated]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  User verifies account information is updated (passed : 14s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[*************************************]]>
+    </line>
+    <line>
+      <![CDATA[Scenario Name: USER IS ABLE TO UPDATE ACCOUNT INFORMATION]]>
+    </line>
+    <line>
+      <![CDATA[Scenario Result: PASSED]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-05-31T19:48:54Z" name="QualiTest Assignment" finished-at="2021-05-31T19:51:53Z" duration-ms="178298">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:org.quali.automation.runners.OrderPlaceRunner@5e3f861]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:org.quali.automation.runners.ProfileUpdateRunner@7d9f158f]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-05-31T19:48:54Z" name="Place a New Order" finished-at="2021-05-31T19:50:41Z" duration-ms="106894">
+      <class name="org.quali.automation.runners.OrderPlaceRunner">
+        <test-method signature="run_cukes()[pri:0, instance:org.quali.automation.runners.OrderPlaceRunner@5e3f861]" started-at="2021-05-31T19:48:54Z" name="run_cukes" description="Runs Cucumber Features" finished-at="2021-05-31T19:50:41Z" duration-ms="106839" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: src&#x2F;test&#x2F;resources&#x2F;featurefiles&#x2F;Order_Tshirt.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Ordering new T-shirt</div>]]>
+            </line>
+            <line>
+              <![CDATA[********************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Scenario: Verify User is able to successfully log in the website]]>
+            </line>
+            <line>
+              <![CDATA[********************************************************]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Verify User is able to successfully log in the website</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  User is able to launch shopping website (passed : 16s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[[PASS]:  User is on Sign in page]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //a[contains(text(),'Sign in')]]]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on Sign in]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  User clicks on &#x27;Sign in&#x27; link (passed : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: User entered Email address]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: User entered password]]>
+            </line>
+            <line>
+              <![CDATA[User entered credentials]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User enters login details (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: User has clicked on Submit button]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on sign in button]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User clicks on &#x27;Sign In&#x27; button (passed : 10s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[User is able to login successfully]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  User is able to login successfully (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[*************************************]]>
+            </line>
+            <line>
+              <![CDATA[Scenario Name: VERIFY USER IS ABLE TO SUCCESSFULLY LOG IN THE WEBSITE]]>
+            </line>
+            <line>
+              <![CDATA[Scenario Result: PASSED]]>
+            </line>
+            <line>
+              <![CDATA[********************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Scenario: User places an order of T-shirt]]>
+            </line>
+            <line>
+              <![CDATA[********************************************************]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: User places an order of T-shirt</div>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //*[@id="block_top_menu"]/ul/li/a[text()="T-shirts"]]]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on T-shirts]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  User clicks on &#x27;T-shirts&#x27; tab (passed : 8s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> css selector: a[title="Add to cart"]]]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: User added item to Cart]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User selects item to adds to cart (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[Get text  Faded Short Sleeve T-shirts value of an element [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> css selector: #layer_cart_product_title]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //div[@id="layer_cart"]//span[contains(text(),"Proceed to checkout")]]]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on Checkout button]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User clicks on checkout button (passed : 14s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //p[@class="cart_navigation clearfix"]//span[contains(text(),"Proceed to checkout")]]]]>
+            </line>
+            <line>
+              <![CDATA[[PASS]: Proceed to Checkout clicked]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User is on &#x27;Summary&#x27; Tab and clicks on &#x27;Proceed to checkout&#x27; (passed : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //p[@class="cart_navigation clearfix"]//span[contains(text(),"Proceed to checkout")]]]]>
+            </line>
+            <line>
+              <![CDATA[[PASS]: Proceed to Checkout clicked]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User is on &#x27;Address&#x27; Tab and clicks on &#x27;Proceed to checkout&#x27; (passed : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: User has clicked on I Agree button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //p[@class="cart_navigation clearfix"]//span[contains(text(),"Proceed to checkout")]]]]>
+            </line>
+            <line>
+              <![CDATA[[PASS]: Proceed to Checkout clicked]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User checkout after selecting Terms and Services (passed : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> css selector: .payment_module .bankwire]]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: User has selected payment mode: bankwire]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User selects payment method &#x27;bankwire&#x27; on payment tab (passed : 8s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //p[@class="cart_navigation clearfix"]//span[contains(text(),"I confirm my order")]]]]>
+            </line>
+            <line>
+              <![CDATA[[PASS]: Proceed to Checkout clicked]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User clicks on &#x27;I confirm my order&#x27; (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[Get text  ORDER CONFIRMATION
+01. Summary
+02. Sign in
+03. Address
+04. Shipping
+05. Payment
+Your order on My Store is complete.
+Please send us a bank wire with
+- Amount $18.51
+- Name of account owner Pradeep Macharla
+- Include these details xyz
+- Bank name RTP
+- Do not forget to insert your order reference DZXMLOKCO in the subject of your bank wire.
+An email has been sent with this information.
+Your order will be sent as soon as we receive payment.
+If you have questions, comments or concerns, please contact our expert customer support team. .
+Back to orders value of an element [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //div[@id="center_column"]]]]>
+            </line>
+            <line>
+              <![CDATA[Get text  Your order on My Store is complete. value of an element [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> css selector: .box .cheque-indent .dark]]]>
+            </line>
+            <line>
+              <![CDATA[Order is placed uccessfully]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  User verifies order is successful (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> css selector: .account span]]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: User has clicked on Account info button]]>
+            </line>
+            <line>
+              <![CDATA[[PASS]: User is on My Account page]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> css selector: .myaccount-link-list [title=Orders]]]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: User has clicked on Orders History and Details button]]>
+            </line>
+            <line>
+              <![CDATA[[PASS]: User is on Order History page]]>
+            </line>
+            <line>
+              <![CDATA[Refrence id is DZXMLOKCO]]>
+            </line>
+            <line>
+              <![CDATA[Order is present in history]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User verifies recent order in history (passed : 11s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[*************************************]]>
+            </line>
+            <line>
+              <![CDATA[Scenario Name: USER PLACES AN ORDER OF T-SHIRT]]>
+            </line>
+            <line>
+              <![CDATA[Scenario Result: PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- org.quali.automation.runners.OrderPlaceRunner -->
+    </test> <!-- Place a New Order -->
+    <test started-at="2021-05-31T19:50:41Z" name="Update User Information" finished-at="2021-05-31T19:51:53Z" duration-ms="71357">
+      <class name="org.quali.automation.runners.ProfileUpdateRunner">
+        <test-method signature="run_cukes()[pri:0, instance:org.quali.automation.runners.ProfileUpdateRunner@7d9f158f]" started-at="2021-05-31T19:50:41Z" name="run_cukes" description="Runs Cucumber Features" finished-at="2021-05-31T19:51:52Z" duration-ms="71355" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: src&#x2F;test&#x2F;resources&#x2F;featurefiles&#x2F;Update_Profile.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Update Profile Information</div>]]>
+            </line>
+            <line>
+              <![CDATA[********************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Scenario: Verify User is able to successfully log in the website]]>
+            </line>
+            <line>
+              <![CDATA[********************************************************]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Verify User is able to successfully log in the website</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  User is able to launch shopping website (passed : 22s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[[PASS]:  User is on Sign in page]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (240815e81437cadeee9686fb58f49875)] -> xpath: //a[contains(text(),'Sign in')]]]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on Sign in]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  User clicks on &#x27;Sign in&#x27; link (passed : 8s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: User entered Email address]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: User entered password]]>
+            </line>
+            <line>
+              <![CDATA[User entered credentials]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User enters login details (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: User has clicked on Submit button]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on sign in button]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User clicks on &#x27;Sign In&#x27; button (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[User is able to login successfully]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  User is able to login successfully (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[*************************************]]>
+            </line>
+            <line>
+              <![CDATA[Scenario Name: VERIFY USER IS ABLE TO SUCCESSFULLY LOG IN THE WEBSITE]]>
+            </line>
+            <line>
+              <![CDATA[Scenario Result: PASSED]]>
+            </line>
+            <line>
+              <![CDATA[********************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Scenario: User is able to update Account Information]]>
+            </line>
+            <line>
+              <![CDATA[********************************************************]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: User is able to update Account Information</div>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (240815e81437cadeee9686fb58f49875)] -> xpath: //span[contains(text(),'My personal information')]]]]>
+            </line>
+            <line>
+              <![CDATA[User clicked onMy personal information]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  User clicks on &#x27;My personal information&#x27; option (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User updates the first name details (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: User entered password]]>
+            </line>
+            <line>
+              <![CDATA[User entered password]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User enters password (passed : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on [[ChromeDriver: chrome on WINDOWS (240815e81437cadeee9686fb58f49875)] -> css selector: button[name='submitIdentity']]]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User clicks on &#x27;Save&#x27; button (passed : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[ASSERTION PASSED: element msg_success is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Get text  Your personal information has been successfully updated. value of an element [[ChromeDriver: chrome on WINDOWS (240815e81437cadeee9686fb58f49875)] -> css selector: .alert-success]]]>
+            </line>
+            <line>
+              <![CDATA[Account info is updated]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  User verifies account information is updated (passed : 14s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[*************************************]]>
+            </line>
+            <line>
+              <![CDATA[Scenario Name: USER IS ABLE TO UPDATE ACCOUNT INFORMATION]]>
+            </line>
+            <line>
+              <![CDATA[Scenario Result: PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- org.quali.automation.runners.ProfileUpdateRunner -->
+    </test> <!-- Update User Information -->
+  </suite> <!-- QualiTest Assignment -->
+</testng-results>

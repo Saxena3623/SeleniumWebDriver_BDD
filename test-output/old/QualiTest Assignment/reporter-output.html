@@ -1,0 +1,129 @@
+<h2>Reporter output</h2><table><tr><td><div "featureFile">Feature File: src&#x2F;test&#x2F;resources&#x2F;featurefiles&#x2F;Order_Tshirt.feature</div></td></tr>
+<tr><td><div "feature">Feature: Ordering new T-shirt</div></td></tr>
+<tr><td>********************************************************</td></tr>
+<tr><td>Scenario: Verify User is able to successfully log in the website</td></tr>
+<tr><td>********************************************************</td></tr>
+<tr><td><div "scenario">Scenario: Verify User is able to successfully log in the website</div></td></tr>
+<tr><td><div "result">Given  User is able to launch shopping website (passed : 16s)</div></td></tr>
+<tr><td>[PASS]:  User is on Sign in page</td></tr>
+<tr><td>Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //a[contains(text(),'Sign in')]]</td></tr>
+<tr><td>User clicked on Sign in</td></tr>
+<tr><td><div "result">When  User clicks on &#x27;Sign in&#x27; link (passed : 5s)</div></td></tr>
+<tr><td>[INFO]: User entered Email address</td></tr>
+<tr><td>[INFO]: User entered password</td></tr>
+<tr><td>User entered credentials</td></tr>
+<tr><td><div "result">And  User enters login details (passed : 2s)</div></td></tr>
+<tr><td>[INFO]: User has clicked on Submit button</td></tr>
+<tr><td>User clicked on sign in button</td></tr>
+<tr><td><div "result">And  User clicks on &#x27;Sign In&#x27; button (passed : 10s)</div></td></tr>
+<tr><td>User is able to login successfully</td></tr>
+<tr><td><div "result">Then  User is able to login successfully (passed : 0s)</div></td></tr>
+<tr><td>*************************************</td></tr>
+<tr><td>Scenario Name: VERIFY USER IS ABLE TO SUCCESSFULLY LOG IN THE WEBSITE</td></tr>
+<tr><td>Scenario Result: PASSED</td></tr>
+<tr><td>********************************************************</td></tr>
+<tr><td>Scenario: User places an order of T-shirt</td></tr>
+<tr><td>********************************************************</td></tr>
+<tr><td><div "scenario">Scenario: User places an order of T-shirt</div></td></tr>
+<tr><td>Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //*[@id="block_top_menu"]/ul/li/a[text()="T-shirts"]]</td></tr>
+<tr><td>User clicked on T-shirts</td></tr>
+<tr><td><div "result">When  User clicks on &#x27;T-shirts&#x27; tab (passed : 8s)</div></td></tr>
+<tr><td>Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> css selector: a[title="Add to cart"]]</td></tr>
+<tr><td>[INFO]: User added item to Cart</td></tr>
+<tr><td><div "result">And  User selects item to adds to cart (passed : 0s)</div></td></tr>
+<tr><td>Get text  Faded Short Sleeve T-shirts value of an element [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> css selector: #layer_cart_product_title]</td></tr>
+<tr><td>Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //div[@id="layer_cart"]//span[contains(text(),"Proceed to checkout")]]</td></tr>
+<tr><td>User clicked on Checkout button</td></tr>
+<tr><td><div "result">And  User clicks on checkout button (passed : 14s)</div></td></tr>
+<tr><td>Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //p[@class="cart_navigation clearfix"]//span[contains(text(),"Proceed to checkout")]]</td></tr>
+<tr><td>[PASS]: Proceed to Checkout clicked</td></tr>
+<tr><td><div "result">And  User is on &#x27;Summary&#x27; Tab and clicks on &#x27;Proceed to checkout&#x27; (passed : 5s)</div></td></tr>
+<tr><td>Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //p[@class="cart_navigation clearfix"]//span[contains(text(),"Proceed to checkout")]]</td></tr>
+<tr><td>[PASS]: Proceed to Checkout clicked</td></tr>
+<tr><td><div "result">And  User is on &#x27;Address&#x27; Tab and clicks on &#x27;Proceed to checkout&#x27; (passed : 5s)</div></td></tr>
+<tr><td>[INFO]: User has clicked on I Agree button</td></tr>
+<tr><td>Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //p[@class="cart_navigation clearfix"]//span[contains(text(),"Proceed to checkout")]]</td></tr>
+<tr><td>[PASS]: Proceed to Checkout clicked</td></tr>
+<tr><td><div "result">And  User checkout after selecting Terms and Services (passed : 5s)</div></td></tr>
+<tr><td>Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> css selector: .payment_module .bankwire]</td></tr>
+<tr><td>[INFO]: User has selected payment mode: bankwire</td></tr>
+<tr><td><div "result">And  User selects payment method &#x27;bankwire&#x27; on payment tab (passed : 8s)</div></td></tr>
+<tr><td>Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //p[@class="cart_navigation clearfix"]//span[contains(text(),"I confirm my order")]]</td></tr>
+<tr><td>[PASS]: Proceed to Checkout clicked</td></tr>
+<tr><td><div "result">And  User clicks on &#x27;I confirm my order&#x27; (passed : 3s)</div></td></tr>
+<tr><td>Get text  ORDER CONFIRMATION
+01. Summary
+02. Sign in
+03. Address
+04. Shipping
+05. Payment
+Your order on My Store is complete.
+Please send us a bank wire with
+- Amount $18.51
+- Name of account owner Pradeep Macharla
+- Include these details xyz
+- Bank name RTP
+- Do not forget to insert your order reference DZXMLOKCO in the subject of your bank wire.
+An email has been sent with this information.
+Your order will be sent as soon as we receive payment.
+If you have questions, comments or concerns, please contact our expert customer support team. .
+Back to orders value of an element [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> xpath: //div[@id="center_column"]]</td></tr>
+<tr><td>Get text  Your order on My Store is complete. value of an element [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> css selector: .box .cheque-indent .dark]</td></tr>
+<tr><td>Order is placed uccessfully</td></tr>
+<tr><td><div "result">Then  User verifies order is successful (passed : 2s)</div></td></tr>
+<tr><td>Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> css selector: .account span]</td></tr>
+<tr><td>[INFO]: User has clicked on Account info button</td></tr>
+<tr><td>[PASS]: User is on My Account page</td></tr>
+<tr><td>Clicked on [[ChromeDriver: chrome on WINDOWS (6528672ed8ce2efc2501f8acab02ec97)] -> css selector: .myaccount-link-list [title=Orders]]</td></tr>
+<tr><td>[INFO]: User has clicked on Orders History and Details button</td></tr>
+<tr><td>[PASS]: User is on Order History page</td></tr>
+<tr><td>Refrence id is DZXMLOKCO</td></tr>
+<tr><td>Order is present in history</td></tr>
+<tr><td><div "result">And  User verifies recent order in history (passed : 11s)</div></td></tr>
+<tr><td>*************************************</td></tr>
+<tr><td>Scenario Name: USER PLACES AN ORDER OF T-SHIRT</td></tr>
+<tr><td>Scenario Result: PASSED</td></tr>
+<tr><td><div "featureFile">Feature File: src&#x2F;test&#x2F;resources&#x2F;featurefiles&#x2F;Update_Profile.feature</div></td></tr>
+<tr><td><div "feature">Feature: Update Profile Information</div></td></tr>
+<tr><td>********************************************************</td></tr>
+<tr><td>Scenario: Verify User is able to successfully log in the website</td></tr>
+<tr><td>********************************************************</td></tr>
+<tr><td><div "scenario">Scenario: Verify User is able to successfully log in the website</div></td></tr>
+<tr><td><div "result">Given  User is able to launch shopping website (passed : 22s)</div></td></tr>
+<tr><td>[PASS]:  User is on Sign in page</td></tr>
+<tr><td>Clicked on [[ChromeDriver: chrome on WINDOWS (240815e81437cadeee9686fb58f49875)] -> xpath: //a[contains(text(),'Sign in')]]</td></tr>
+<tr><td>User clicked on Sign in</td></tr>
+<tr><td><div "result">When  User clicks on &#x27;Sign in&#x27; link (passed : 8s)</div></td></tr>
+<tr><td>[INFO]: User entered Email address</td></tr>
+<tr><td>[INFO]: User entered password</td></tr>
+<tr><td>User entered credentials</td></tr>
+<tr><td><div "result">And  User enters login details (passed : 2s)</div></td></tr>
+<tr><td>[INFO]: User has clicked on Submit button</td></tr>
+<tr><td>User clicked on sign in button</td></tr>
+<tr><td><div "result">And  User clicks on &#x27;Sign In&#x27; button (passed : 3s)</div></td></tr>
+<tr><td>User is able to login successfully</td></tr>
+<tr><td><div "result">Then  User is able to login successfully (passed : 0s)</div></td></tr>
+<tr><td>*************************************</td></tr>
+<tr><td>Scenario Name: VERIFY USER IS ABLE TO SUCCESSFULLY LOG IN THE WEBSITE</td></tr>
+<tr><td>Scenario Result: PASSED</td></tr>
+<tr><td>********************************************************</td></tr>
+<tr><td>Scenario: User is able to update Account Information</td></tr>
+<tr><td>********************************************************</td></tr>
+<tr><td><div "scenario">Scenario: User is able to update Account Information</div></td></tr>
+<tr><td>Clicked on [[ChromeDriver: chrome on WINDOWS (240815e81437cadeee9686fb58f49875)] -> xpath: //span[contains(text(),'My personal information')]]</td></tr>
+<tr><td>User clicked onMy personal information</td></tr>
+<tr><td><div "result">Given  User clicks on &#x27;My personal information&#x27; option (passed : 1s)</div></td></tr>
+<tr><td><div "result">And  User updates the first name details (passed : 2s)</div></td></tr>
+<tr><td>[INFO]: User entered password</td></tr>
+<tr><td>User entered password</td></tr>
+<tr><td><div "result">And  User enters password (passed : 6s)</div></td></tr>
+<tr><td>Clicked on [[ChromeDriver: chrome on WINDOWS (240815e81437cadeee9686fb58f49875)] -> css selector: button[name='submitIdentity']]</td></tr>
+<tr><td><div "result">And  User clicks on &#x27;Save&#x27; button (passed : 6s)</div></td></tr>
+<tr><td>ASSERTION PASSED: element msg_success is displayed.</td></tr>
+<tr><td>Get text  Your personal information has been successfully updated. value of an element [[ChromeDriver: chrome on WINDOWS (240815e81437cadeee9686fb58f49875)] -> css selector: .alert-success]</td></tr>
+<tr><td>Account info is updated</td></tr>
+<tr><td><div "result">Then  User verifies account information is updated (passed : 14s)</div></td></tr>
+<tr><td>*************************************</td></tr>
+<tr><td>Scenario Name: USER IS ABLE TO UPDATE ACCOUNT INFORMATION</td></tr>
+<tr><td>Scenario Result: PASSED</td></tr>
+</table>
