@@ -35,12 +35,12 @@ org.quali.automation.Pageobjects : Contains BaseUi, GetPage Classes which compri
 
 org.quali.automation.utils : Contains various utility classes.
 
-com.qait.automation.action : Contains Action classes for each test, the Action methods use elements declared in the spec file and those element are then fed to different actions defined in BaseUi and GetPage libs.
+org.quali.automation.action : Contains Action classes for each test, the Action methods use elements declared in the spec file and those element are then fed to different actions defined in BaseUi and GetPage libs.
 
 org.quali.automation.runners: Contains the runner files for the feature files of suite.
 
 
-com.qait.automation.mts.stepDefs : This is the ultimate layer, which contains the Step definitions for the test steps written in BDD format in feature files.
+org.quali.automation.stepDefs : This is the ultimate layer, which contains the Step definitions for the test steps written in BDD format in feature files.
 
 In folder src/java/resources:
 
